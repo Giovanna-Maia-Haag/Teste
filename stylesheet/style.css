@@ -1,0 +1,38 @@
+body {background-image:linear-gradient(360deg,rgb(0, 154, 237),
+     rgb(0, 101, 242), rgb(6, 0, 113), rgb(3, 0, 62));
+      color: aliceblue;}
+p::selection { background-color: rgb(2, 7, 148);}
+h2::selection { background-color: rgb(0, 0, 84); 
+                color: aliceblue;
+                -webkit-text-fill-color: aliceblue;}
+h3::selection { background-color: rgb(2, 7, 148);
+                -webkit-text-fill-color: aliceblue;}
+
+h2 {  background-image: linear-gradient(to left, rgb(0, 255, 255), rgb(255, 255, 255));
+      color: rgb(4, 1, 69);
+      background-clip:text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 36px;
+      font-family: sans-serif;
+      padding-right: 20%;}
+
+h3  {  background-image: linear-gradient(to left, rgb(0, 255, 255), rgb(255, 255, 255));
+       color: rgb(4, 1, 69);
+       background-clip:text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       font-size: 36px;
+       font-family: sans-serif;
+       text-align: center;}
+      
+ {background-image: url(../images/casa.PTG.webp);
+         background-size: 100%, 100%;
+        overflow: hidden ;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+         background-blend-mode:darken;}
+
+
+
+    
